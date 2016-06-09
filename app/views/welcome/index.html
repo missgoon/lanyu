@@ -67,8 +67,8 @@
     </div>
     <div id="loginpanel">
       <ul>
-        <li class="left">Log In Here &raquo;</li>
-        <li class="right" id="toggle"><a id="slideit" href="#slidepanel">Administration</a><a id="closeit" style="display: none;" href="#slidepanel">Close Panel</a></li>
+        <li class="left">当前时间： &raquo;</li>
+        <li class="right" id="toggle"><%= Time.now.to_s[0..19]%></li>
       </ul>
     </div>
     <br class="clear" />
@@ -78,16 +78,15 @@
 <div class="wrapper col1">
   <div id="header">
     <div id="logo">
-      <h1><a href="#">School Education</a></h1>
-      <p>Free CSS Website Template</p>
+      <h2><a href="#">蓝雨教育咨询服务有限公司</a></h2>
+      <p>绥阳县高考志愿填报服务</p>
     </div>
     <div id="topnav">
       <ul>
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="style-demo.html">Style Demo</a></li>
-        <li><a href="full-width.html">Full Width</a></li>
-        <li><a href="#">Link Text</a></li>
-        <li class="last"><a href="#">A Long Link Text</a></li>
+        <li class="active"><a href="index.html">首页</a></li>
+        <li><a href="style-demo.html">高考志愿</a></li>
+        <li><a href="full-width.html">活动</a></li>
+        <li class="last"><a href="#">联系我们</a></li>
       </ul>
     </div>
     <br class="clear" />
@@ -96,11 +95,11 @@
 <!-- ####################################################################################################### -->
 <div class="wrapper col2">
   <div id="featured_slide">
-    <div class="featured_box"><a href="#"><img src="/assets/1.jpg" alt="" /></a>
+    <div class="featured_box"><a href="#"><img src="/assets/14.jpg" alt="" /></a>
       <div class="floater">
-        <h2>1. Aliquatjusto quisque nam</h2>
-        <p>Orcimagna rhoncus et a nec antesque sed temportor pellus nibh conseque. Accumstsemper wisi pretium feugiat non ut eleifendrerisque at et condisse sce. Iaculumorci congue nam mollis odio id cras orci vestique euisquet at. Donecconsectetus lacilis ac pellus nam nibh curabitur sed anterdum nectetus adipis. Pretiummagnisse antes nunc pretium convallis tincidunt non at rutrumt.</p>
-        <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+        <h2>中国校友会网：2016年中国大学排行榜榜单</h2>
+        <p>2016年新年即将来临，中国哪所大学的综合实力最强？哪些大学跻身“中国一流大学第一方阵”？哪些大学最有实力跻身国家“双一流”建设战略？中国哪所大学社会捐赠最多？中国哪些大学最受毕业生校友认可？2015年12月30日，艾瑞深中国校友会网正式发布《2016中国大学评价研究报告》，报告最新公布了2016中国大学排行榜100强、2016中国一流大学排行榜、2016中国大学社会捐赠排行榜和2016中国大学校友捐赠排行榜等榜单，这是艾瑞深中国校友会网大学研究团队连续第14年发布中国大学排行榜。</p>
+        <p class="readmore"><a href="#">阅读全文 &raquo;</a></p>
       </div>
     </div>
     <div class="featured_box"><a href="#"><img src="/assets/2.jpg" alt="" /></a>
@@ -140,33 +139,45 @@
       <div class="column2">
         <ul>
           <li>
-            <h2>Lipsum</h2>
+            <h1>最新文章</h1>
+            <h2>北京高考成绩预计23日公布</h2>
             <div class="imgholder"><img src="/assets/6.jpg" alt="" /></div>
             <p>Nullamlacus dui ipsum conseqlo borttis non euisque morbipen a sdapibulum orna.</p>
             <p>Urnau ltrices quis curabitur pha sellent esque congue magnisve stib ulum quismodo nulla et feugiat. Adipisciniap ellentum leo ut consequam.</p>
-            <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+            <p class="readmore"><a href="#">阅读全文 &raquo;</a></p>
           </li>
           <li class="last">
-            <h2>Lipsum</h2>
+            <h1>&nbsp<h1>
+            <h2>传说中大学最难的几门课程</h2>
             <div class="imgholder"><img src="/assets/7.jpg" alt="" /></div>
             <p>Nullamlacus dui ipsum conseqlo borttis non euisque morbipen a sdapibulum orna.</p>
             <p>Urnau ltrices quis curabitur pha sellent esque congue magnisve stib ulum quismodo nulla et feugiat. Adipisciniap ellentum leo ut consequam.</p>
-            <p class="readmore"><a href="#">Continue Reading &raquo;</a></p>
+            <p class="readmore"><a href="#">阅读全文 &raquo;</a></p>
           </li>
         </ul>
         <br class="clear" />
       </div>
       <div class="column2">
-        <h2>About This Free CSS Template !</h2>
-        <img class="imgl" src="/assets/8.jpg" alt="" />
-        <p>This is a W3C standards compliant free website template from <a href="http://www.cssmoban.com/">模板之家</a>.</p>
-        <p>This template is distributed using a <a href="#">Website Template Licence</a>, which allows you to use and modify the template for both personal and commercial use when you keep the provided credit links in the footer. For more CSS templates visit <a href="#">Free Website Templates</a>.</p>
-        <p>Morbitincidunt maurisque eros molest nunc anteget sed vel lacus mus semper. Anterdumnullam interdum eros dui urna consequam ac nisl nullam ligula vestassa.</p>
-        <p>Condimentumfelis et amet tellent quisquet a leo lacus nec augue accumsan. Sagittislaorem dolor ipsum at urna et pharetium malesuada nis consectus odio.</p>
+        <ul>
+          <li>
+            <h2>最新高校毕业生月起薪大调查，结果让人汗颜</h2>
+            <div class="imgholder"><img src="/assets/6.jpg" alt="" /></div>
+            <p>Nullamlacus dui ipsum conseqlo borttis non euisque morbipen a sdapibulum orna.</p>
+            <p>Urnau ltrices quis curabitur pha sellent esque congue magnisve stib ulum quismodo nulla et feugiat. Adipisciniap ellentum leo ut consequam.</p>
+            <p class="readmore"><a href="#">阅读全文 &raquo;</a></p>
+          </li>
+          <li class="last">
+            <h2>盘点最容易考研的几大专业                                              </h2>
+            <div class="imgholder"><img src="/assets/7.jpg" alt="" /></div>
+            <p>Nullamlacus dui ipsum conseqlo borttis non euisque morbipen a sdapibulum orna.</p>
+            <p>Urnau ltrices quis curabitur pha sellent esque congue magnisve stib ulum quismodo nulla et feugiat. Adipisciniap ellentum leo ut consequam.</p>
+            <p class="readmore"><a href="#">阅读全文 &raquo;</a></p>
+          </li>
+        </ul>
       </div>
     </div>
     <div class="fl_right">
-      <h2>Latest From The School Blog</h2>
+      <h2>高考最热</h2>
       <ul>
         <li>
           <div class="imgholder"><a href="#"><img src="/assets/9.jpg" alt="" /></a></div>
@@ -202,58 +213,39 @@
 <div class="wrapper col4">
   <div id="footer">
     <div class="footbox">
-      <h2>Lacus interdum</h2>
+      <h2>友情链接</h2>
       <ul>
-        <li><a href="#">Lorem ipsum dolor</a></li>
-        <li><a href="#">Suspendisse in neque</a></li>
-        <li><a href="#">Praesent et eros</a></li>
-        <li><a href="#">Lorem ipsum dolor</a></li>
-        <li><a href="#">Suspendisse in neque</a></li>
-        <li class="last"><a href="#">Praesent et eros</a></li>
+        <li><a href="http://www.liuxue.com/">留学网</a></li>
+        <li><a href="http://www.gzu521.com/">贵州学习网</a></li>
+        <li><a href="http://learning.sohu.com/gaokao.shtml">搜狐高考</a></li>
+        <li><a href="http://www.gkstk.com/">高考试题库</a></li>
+        <li class="last"><a href="http://www.gaokao.com/guizhou/"> 贵州高考</a></li>
       </ul>
     </div>
     <div class="footbox">
-      <h2>Lacus interdum</h2>
+      <h2>简介</h2>
       <ul>
-        <li><a href="#">Lorem ipsum dolor</a></li>
-        <li><a href="#">Suspendisse in neque</a></li>
-        <li><a href="#">Praesent et eros</a></li>
-        <li><a href="#">Lorem ipsum dolor</a></li>
-        <li><a href="#">Suspendisse in neque</a></li>
-        <li class="last"><a href="#">Praesent et eros</a></li>
+        <li><a href="#">关于我们</a></li>
+        <li><a href="#">联系我们</a></li>
       </ul>
     </div>
     <div class="footbox">
-      <h2>Lacus interdum</h2>
-      <ul>
-        <li><a href="#">Lorem ipsum dolor</a></li>
-        <li><a href="#">Suspendisse in neque</a></li>
-        <li><a href="#">Praesent et eros</a></li>
-        <li><a href="#">Lorem ipsum dolor</a></li>
-        <li><a href="#">Suspendisse in neque</a></li>
-        <li class="last"><a href="#">Praesent et eros</a></li>
-      </ul>
+      <h2>QQ群</h2>
+      <%=image_tag("/assets/qq.png",:size=>"5*5")%>
     </div>
     <div class="footbox">
-      <h2>Lacus interdum</h2>
-      <ul>
-        <li><a href="#">Lorem ipsum dolor</a></li>
-        <li><a href="#">Suspendisse in neque</a></li>
-        <li><a href="#">Praesent et eros</a></li>
-        <li><a href="#">Lorem ipsum dolor</a></li>
-        <li><a href="#">Suspendisse in neque</a></li>
-        <li class="last"><a href="#">Praesent et eros</a></li>
-      </ul>
+      <h2>微信群</h2>
+      <%=image_tag("/assets/weixin.png",:size=>"5*5")%>
     </div>
     <div class="footbox last">
-      <h2>Lacus interdum</h2>
+      <h2>联系方式</h2>
       <ul>
-        <li><a href="#">Lorem ipsum dolor</a></li>
-        <li><a href="#">Suspendisse in neque</a></li>
-        <li><a href="#">Praesent et eros</a></li>
-        <li><a href="#">Lorem ipsum dolor</a></li>
-        <li><a href="#">Suspendisse in neque</a></li>
-        <li class="last"><a href="#">Praesent et eros</a></li>
+        <li>电话号码：</li>
+        <li>&nbsp 18813036434(杨)</li>
+        <li>&nbsp 18998299525(张)</li>
+        <li>&nbsp 15761673726(王)</li>
+        <li>E-mail：</li>
+        <li class="last">&nbsp lanyu_education@163.com</li>
       </ul>
     </div>
     <br class="clear" />
@@ -262,8 +254,8 @@
 <!-- ####################################################################################################### -->
 <div class="wrapper col5">
   <div id="copyright">
-    <p class="fl_left">Copyright &copy; 2011 - All Rights Reserved - <a href="#">Domain Name</a></p>
-    <p class="fl_right">Template from <a href="http://www.cssmoban.com/" title="模板之家">网站模板</a></p>
+    <p class="fl_left">Copyright &copy; 2011 - All Rights Reserved - <a href="#">LanYu Education</a></p>
+    <p class="fl_right">贵州遵义·绥阳县</a></p>
     <br class="clear" />
   </div>
 </div>
